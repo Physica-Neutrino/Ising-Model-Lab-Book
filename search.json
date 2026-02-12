@@ -4,7 +4,7 @@
     "href": "week4.html",
     "title": "Week 4 Overview",
     "section": "",
-    "text": "Main Activities:\n\nUpgraded the 2D Code       * Looking at the output results produced in 2D last week, I decided to improve the quality of these.\n     * I once again researched into the literature to see if there was a more sophisticated way to display          the data, as scatter graphs limit the clarity of the representation of the data.       * I found that log plots showed a much more transparent representation of the data so made the relevant          graphs into log plots.\n      * Less needed changing for 1D - the only significant edit was how to graphically represent 1D shape.\nStarted to produce results       * I started to produce a few preliminary results, starting with 2D.       * I began with a very small cluster size to confirm that the code was functioning correctly.\n     * I then moved on to increasing the cluster size, noting that larger cluster sizes matched more closely         with the literature. A drawback to larger cluster sizes is the configuration time.       * I decided it was better to get concrete results for 2D before moving onto other dimensions.       * To this end, I varied the temperature and cluster size to produce a series of results.\nUpdated Lab Book       * I put the information I had been collecting, such as the literature review notes, into the Lab book.       * I also inputted my entries for weeks 1-3 that I had been storing on alternative software until now.\n\n\n\nMain Results:\n\nHave functional code in 1D and 3D\nProduced a series of results and outputs for the 2D set-up\nUpdated Lab Book"
+    "text": "Main Activities:\n\nUpgraded the 2D Code       * Looking at the output results produced in 2D last week, I decided to improve the quality of these.\n     * I once again researched into the literature to see if there was a more sophisticated way to display          the data, as scatter graphs limit the clarity of the representation of the data.       * I found that log plots showed a much more transparent representation of the data so made the relevant          graphs into log plots.\n      * I varied the 2D Inputs to establish that the plots were functional and working well.\nStarted to work in 3D       * Given the success (hopefully) of the 2D coding, I decided to proceed on to the 3D code.       * My plan is to try the 3D coding and depending on it’s success, structure my 2D inputs accordingly.      * I began to construct the code, again reading the literature to ensure that plots were as         sophisticated and transparent as possible.       * The biggest issue for this has been the complication times, as I needed to use big enough clusters to         establish whether the plots were of a good quality.\n\n\n\nMain Results:\n\nHave functional, more sophisticated and transparent plots for 2D.\nMore sophisticated and functioning plots for 3D in the making.\nUpdated Lab Book"
   },
   {
     "objectID": "week2.html",
@@ -61,6 +61,13 @@
     "title": "Log Overview",
     "section": "Week Three:",
     "text": "Week Three:\n\nAdapted the Clustering Algorithm code created in week 2 to extend it to 1D and 3D\nProduced a series of results and outputs for the 2D set-up\nUpdated the Lab Book so that it was functional on Quarto."
+  },
+  {
+    "objectID": "Weekly-Log.html#week-four",
+    "href": "Weekly-Log.html#week-four",
+    "title": "Log Overview",
+    "section": "Week Four:",
+    "text": "Week Four:\n\nWrote functional, sophisticated and transparent plots for 2D clustering, based on the 2D work from week 3.\n\nBegan to code more sophisticated and functioning code for the 3D clustering, in-line with the literature.\nUpdated Lab Book to reflect current progress"
   },
   {
     "objectID": "lr.html",

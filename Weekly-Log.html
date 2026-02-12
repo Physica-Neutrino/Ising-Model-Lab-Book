@@ -145,6 +145,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#week-one" id="toc-week-one" class="nav-link" data-scroll-target="#week-one">Week One:</a></li>
   <li><a href="#week-two" id="toc-week-two" class="nav-link" data-scroll-target="#week-two">Week Two:</a></li>
   <li><a href="#week-three" id="toc-week-three" class="nav-link" data-scroll-target="#week-three">Week Three:</a></li>
+  <li><a href="#week-four" id="toc-week-four" class="nav-link" data-scroll-target="#week-four">Week Four:</a></li>
   </ul>
 </nav>
     </div>
@@ -199,6 +200,15 @@ ul.task-list li input[type="checkbox"] {
 <li>Adapted the Clustering Algorithm code created in week 2 to extend it to 1D and 3D</li>
 <li>Produced a series of results and outputs for the 2D set-up</li>
 <li>Updated the Lab Book so that it was functional on Quarto.</li>
+</ul>
+</section>
+<section id="week-four" class="level2">
+<h2 class="anchored" data-anchor-id="week-four">Week Four:</h2>
+<ul>
+<li>Wrote functional, sophisticated and transparent plots for 2D clustering, based on the 2D work from week 3.<br>
+</li>
+<li>Began to code more sophisticated and functioning code for the 3D clustering, in-line with the literature.</li>
+<li>Updated Lab Book to reflect current progress</li>
 </ul>
 
 
@@ -278,7 +288,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Physica-Neutrino\.github\.io\/Ising-Model-Lab-Book\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
