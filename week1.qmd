@@ -1,0 +1,52 @@
+---
+title: "Week 1 Overview"
+---
+
+#### Main Activities: 
+- Deciding direction of the project and possible avenues to explore. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * The current top suggests are something to do with how clustering attributes (such as shapes and sizes)
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vary with dimensionality, or something to do with the critical exponent. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * We are also looking into where there might be a cross over between the critical exponent and clustering 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; attributes, and whether this could be incorporated into the project.  
+
+- Setting up infrastructure to facilitate the project 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * Set up a GitHub account so that I could pull the start-up code repository
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * Installed Quarto, found I didn't need to install Quarto and then set up Quarto access to work through 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Visual Studio Editor. VS Editor had to be deleted and re-installed, following which Quarto functioned. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I then set up a few pages on the website to become familiar with how it works. 
+
+- Literature Inquiry  
+&nbsp;&nbsp;&nbsp;&nbsp; * Searched online for articles on Cluster Algorithms and the Critical Exponent. I found several articles that
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; were potentially of interested, including one that looked like it may contain helpful coding hints. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I ensured that all of the article were proper science articles from reputable sources. 
+
+- Literature Review
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I then proceeded to read the articles and write a (relatively!) brief literature review for each one.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * One of the key observations from this was the way in which a Cluster is defined. I also established 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; important equations and identified recommended approaches. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I then wrote a final literature summary and identified a possible project direction based on the content 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; of the articles. 
+
+#### Main Discoveries: 
+- Possible Project direction considered at this point: 
+<br>
+As the spatial dimension increases, cluster formation in the Ising model changes qualitatively. In one dimension, clusters remain finite and their size distribution is exactly known, reflecting the absence of a phase transition. In higher dimensions, clusters grow, change shape, and become increasingly compact as the system approaches the critical temperature. These geometric changes are directly linked to diverging correlation lengths and critical scaling. Cluster-based representations and algorithms reveal that clusters are the fundamental objects governing both static and dynamic critical behaviour, explaining why cluster size, shape, and formation times depend sensitively on dimension.
+
+#### Main Documentation: 
+- Please [click here](lr.qmd) to see the full literature review 
+

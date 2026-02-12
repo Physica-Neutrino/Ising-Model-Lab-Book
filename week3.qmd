@@ -1,0 +1,39 @@
+---
+title: "Week 3 Overview"
+---
+
+#### Main Activities: 
+- Translated the Clustering Algorithm to extend to 1D and 3D. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * Currently, the code created is functional for 2D only, so my starting point is to extend it to 1D & 3D. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * My main consideration when doing this was how to put the inputs needed to vary with the dimensions, 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; as well as which graphs would still produce correctly and which would need reconstructing. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * A lot more graphs needed changing for the 3D, and I also included a graph for the Anisotrophy. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * Less needed changing for 1D - the only significant edit was how to graphically represent 1D shape. 
+- Started to produce results 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I started to produce a few preliminary results, starting with 2D. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I began with a very small cluster size to confirm that the code was functioning correctly.  
+&nbsp;&nbsp;&nbsp;&nbsp; * I then moved on to increasing the cluster size, noting that larger cluster sizes matched more closely 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  with the literature. A drawback to larger cluster sizes is the configuration time. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I decided it was better to get concrete results for 2D before moving onto other dimensions. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * To this end, I varied the temperature and cluster size to produce a series of results. 
+- Updated Lab Book
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I put the information I had been collecting, such as the literature review notes, into the Lab book. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I also inputted my entries for weeks 1-3 that I had been storing on alternative software until now.  
+
+
+#### Main Results: 
+- Have functional code in 1D and 3D
+- Produced a series of results and outputs for the 2D set-up
+- Updated Lab Book

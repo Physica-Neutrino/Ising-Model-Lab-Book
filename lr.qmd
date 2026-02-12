@@ -1,0 +1,90 @@
+---
+title: "Literature Review"
+---
+
+## Articles:
+
+Article 1:  [Cluster Algorithm for the Ising Model](https://www.ggi.infn.it/talkfiles/slides/slides6163.pdf)
+
+Article 2: [“Clusters” in the king Model, Metastable States and Essential Singularity](https://pdf.sciencedirectassets.com/272507/1-s2.0-S0003491600X04514/1-s2.0-0003491676901597/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGgaCXVzLWVhc3QtMSJHMEUCIQDUePsxQdkYSULeKkjQl%2Fde8szhaFUZAhO89iFVNmce5gIgFImaY0%2B27DyG1K28zABzbY%2F4yx65gNMu6hrpfeFJAj4qswUIMRAFGgwwNTkwMDM1NDY4NjUiDH63vTrS%2FV6AyGCO5yqQBfMCpIEWW4UfFzk1BcJZASr955zDJlNHLyuKx%2BNI4YA97Ez5RdTldzDKjluR02si37gz5xtQBBjp47Jw%2Fp5yYKDuAOJg90nYKUtNJ7T%2FNCcOTByDUk%2BA74qP8rQX%2FdrZDnIsRouAfWxc78cXmJDpZzHaA%2B%2B2Zd85fUqL%2BIZR2aIR9uIQWcZWhiFry2iN2oivYzYE9exv%2FTf82h08Ag6B366vgyKrdoZfD0AbIGKmtfFtAsU73IAFiXleObjwaam%2B7hwtzl5UEy08kI7vin1S1p1jOPXc84vU88r0T86ImDhZwRo7ZLJ%2F%2FdzAk9MzYAZUHxFdjMcE98c6zGqX71wTKdr59RIe19Zzk0tRNXX%2Fk6Qg6zOPKd9tlW4EdkjbWCque5Tr6weW3xI%2BOdwl%2F9X3BEwLnlMDjLqp5V0AdU7Y3VNnD0G52xWVS5n2tLgF7NoPm5i6i%2BMkNz4MLEfPMREqIoV0zV5Xq4UiNVdixfMs%2F6y4z4NIsOuG5O%2FTRQTeEGfE%2FqjTToo35xwHZqle7CmnUFcCulJRNVXeD63hJHaKAcfn3w0Oxq3L6ockCaIBQ6Xgwq80%2F8lqx%2FRgr3JD82RhkF9qtxSl5JD9zcuDbZpywKoiDKyJUtWaNzApPk3Z7JqZgu2ka%2B5AyHCXBdpndWMQuPqhqAoi1OPMqhwKbZ%2Fa0ol917H0UHKPweQfqrVL0U9d4uBcUdCr4cdMCibM2Qt55CtZVKJoqoDRcTTINSlaHGswlXdInn%2FxrVT0phx6CtQAInfyn8n48YeElPZs%2B8FnpfghH7CjDAYStbjuv%2BroKGcKc7khs0NisDY3MC%2FE4sXyxZEvcXF%2FG%2F1Kfy8CfIskVKrVUbnn6vn5p2HeIzuyvpuXMNf0kswGOrEB5hAIt7nUJdXxfeZI6GEl5%2F7fDcfKPZE8eaKQuNgeQJe1WYYRz4dLsacHN7%2FRLlL0vBLnKsvTSDTszpPkb79h9CdUP%2FDR5e4oE0c3ec5J4NubGerVhUi1r%2Fc2yrW%2FufWq1Goi450XKkZrX7VQ4T2FhXwiAg0c6xl13f0W%2F%2Bs97Bo36%2B5D5mI7m5Rlz8iM58Im3qTYUCZQG9slo%2B12Zu8v69xfrKYbQsMsXJlINhlOAO9I&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260205T160719Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY5HIGH54D%2F20260205%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=eae9a3f0589bb4ea333feb4a18eec8f9af5b82199a460d27f2eac87204ad54d4&hash=68211e72d8dc41adea2b83829b9993a0fcc2f827645260092d48d07d117748e9&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=0003491676901597&tid=spdf-5c109af2-3a84-4131-823c-a18d812a12c1&sid=72b0a95f6320d74bb349c430b7e729260f2agxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1d04580c595702580557&rr=9c93a8f6f93a4f00&cc=gb)
+
+Article 3: [The FCC Ising Model in the cluster variation approximation](https://journals.aps.org/prb/pdf/10.1103/PhysRevB.17.2926)
+
+Article 4: [Exact cluster size distribution in the one-dimensional Ising model](https://journals.aps.org/pre/pdf/10.1103/PhysRevE.71.026127)
+
+Article 5: [Shape and size of clusters in the Ising model](https://iopscience.iop.org/article/10.1088/0305-4470/10/7/012/pdf)
+
+Article 6: [Using the Random-Cluster Model for Ising Model Simulations](https://repository.tudelft.nl/file/File_62c5834c-11be-4455-a96e-e739bc6d9efa?preview=1)
+
+## Literature Summaries
+
+### Article 1: Cluster Algorithm for the Ising Model
+
+Describes cluster-based Monte Carlo algorithms for the Ising model — specifically the Swendsen–Wang algorithm, which builds clusters of same-spin sites and flips them as whole units instead of flipping spins one by one. It also covers related techniques for quantum Monte Carlo, but the core part that connects to your questions is the cluster formation and identification.
+
+Defines a cluster as a group of spins that are the same orientation (all +1 or all −1) or connected via “active” bonds. Bonds are formed only between neighbouring spins that are aligned. Treats cluster formation as a core structural object of simulation, not arbitrary grouping - therefore they have physical meaning in terms of connected spins linked by thermal weighting, and also algorithmic meaning. 
+
+Cluster Construction Rule: For each nearest-neighbour pair $(_i,_j)(_i,_j)$. If spins match: $σ_i=σ_jσ_i​=σ_j$, a bond may be activated between them. If spins differ: $σ_i≠σ_jσ_i​=σ_j​$, no bond is formed. Bond activation is probabilistic, with probability based on temperature and interaction strength.
+Equation: $P(b_{ij}=1)=1−e^{-2βJ}$. This governs bond formation and hence cluster structure
+
+Computational method: generate bonds, identify clusters via graph traversal, flip clusters as collective units
+
+### Article 2: “Clusters” in the king Model, Metastable States and Essential Singularity
+
+Discusses different ways to define clusters in the Ising model, how those definitions relate to critical phenomena and nucleation theory, and how cluster concentrations scale near critical points using both theoretical arguments and Monte Carlo results. It explores how cluster statistics behave, including a crossover from critical to geometric behaviour, and relates cluster fluctuations to thermodynamic singularities and metastable states.
+
+Cluster Definitions: Clusters are described in terms of a contour surrounding flipped spins — effectively a geometric object defined by size $ss$ and number of reversed spins $ll$. The paper shows that critical behaviour of clusters is not dominated by fully “ramified” (tree-like) clusters — contrary to some earlier conjectures.  For large clusters, a crossover to “geometric” behaviour is observed, meaning clusters behave like percolation objects at large scales.  This crossover is interpreted using standard scaling theory of critical phenomena. 
+
+Paper connects cluster properties in the Ising model directly to critical scaling behaviour near the phase transition. By introducing the cluster concentration function $p_{(l,s)}p_{(l,s)}$, which depends on both the number of flipped spins and the geometric size of the enclosing contour, it shows that cluster size and shape distributions obey scaling laws consistent with universal critical behaviour. It also demonstrates that clusters at criticality are not simply highly ramified, tree-like structures, but instead exhibit more complex geometric characteristics that reflect the underlying physics of the phase transition. Its scaling arguments imply that cluster statistics are governed by the same principles that determine critical exponents, linking geometric cluster properties to thermodynamic critical phenomena.
+
+## Article 3: The FCC Ising Model in the cluster variation approximation
+Applies the cluster variation method (CVM) to the face-centered cubic (fcc) Ising ferromagnet, using increasingly large cluster approximations to compute thermodynamic properties such as the critical temperature and specific heat with high precision. The CVM is a theoretical approach that expands the free energy in terms of finite cluster probabilities, minimizing it to approximate equilibrium behaviour more accurately than simple mean-field theories.
+
+Cluster Role in the Method: Clusters here are mathematical objects selected for approximation of the free energy in the CVM. Rather than physical spin domains (as in Monte Carlo cluster counts), CVM clusters represent sets of lattice sites whose joint probabilities are explicitly tracked. Free Energy in Terms of Cluster Variables: The CVM expresses free energy as a function of cluster occupation probabilities. 
+
+The equilibrium cluster probabilities come from minimizing the free energy under consistency constraints, leading to a set of coupled nonlinear equations.  Using a high-level cluster approximation yields a critical temperature estimate within ~1.5% of high-temperature expansion results, showing that larger clusters capture critical correlations well.
+
+The paper uses “clusters” as a theoretical basis for improving approximations to the free energy in a three-dimensional (fcc) Ising system. The cluster variation method captures local correlations by tracking probabilities of multi-site configurations, and larger clusters in the approximation lead to better estimates of critical properties like the critical temperature. Highlights how cluster correlations influence critical behaviour.
+
+## Article 4: Exact cluster size distribution in the one-dimensional Ising model
+The paper derives an exact analytical expression for the distribution of geometrical spin clusters in the 1D Ising model in the thermodynamic limit. It compares that theoretical result with Monte Carlo simulations and explores how the cluster size distribution depends on energy (or temperature). Unlike many Ising studies focused on magnetisation or energy, this one is specifically about cluster statistics. 
+
+The paper finds an exact analytical formula for the normalized number of clusters of each size in the 1D Ising model, “Cluster” here meaning a contiguous set of spins in the same state (all $+1$ or all $−1$). It uses Monte Carlo simulations to check the analytic formula and confirm that the predicted distribution matches the observed one in practice. The paper studies how the cluster size distribution changes with energy. The exact formula is given in the thermodynamic limit (as the number of spins $→ ∞$), which is the regime most relevant for statistical physics and scaling. 
+
+The central outcome is a closed-form expression for cluster frequencies as a function of energy/temperature. Can therefore write down how many clusters of size as you expect per site without simulating them. The distribution is normalized, so it gives true probabilities (or frequencies) of each cluster size.
+
+This paper provides a rare case where the cluster size distribution is known analytically for the 1D Ising model, showing exactly how many clusters of each size you should expect in equilibrium and how that distribution varies with energy (temperature). Because the 1D Ising model doesn’t have a phase transition or diverging correlation length, its cluster statistics behave differently from higher dimensions. Could compare our simulation results to an exact formula in 1D and see how the cluster size distribution changes with dimensionality and temperature. It also demonstrates the general idea that cluster distributions depend sensitively on temperature and energy, which we could use to interpret our own results in 2D and 3D systems.
+
+## Article 5: Shape and size of clusters in the Ising model
+This paper introduces a quantitative measure of cluster shape in the 2D Ising model using Monte Carlo data. Instead of just counting how many spins are in a cluster, the authors introduce the cyclomatic number as a way of measuring how compact or ramified (branchy, tree-like) a cluster is. They then study how the size, shape, and number of cycles in clusters vary with temperature, especially near the critical point, and connect these geometric properties to ideas from percolation theory, the Whitney polynomial, and critical scaling. This is one of the first papers to explicitly measure cluster geometry in an 
+Ising simulation.
+
+Clusters are not just “groups of spins, they are are analysed in terms of: number of spins n, number of bonds ℓ, number of independent cycles c. Cyclomatic number are defined as $c(n,ℓ)=ℓ−n+1$. This measures how many loops a cluster contains: Tree-like cluster $→ c=0$ and Loopy/compact cluster → large cc. The coefficient of compactness is defined as $A=c(n−1)$, which ranges from $A=0$ to completely ramified (branchy) to $A=1$, which is very compact - quantitative measure of cluster shape. 
+
+Key results: At very high temperature (random percolation): $A≈0.2$, so clusters are very ramified. As temperature decreases toward Tc: $A→0.7$. Below Tc​: $A→1$ rapidly so clusters become compact droplets
+From Glauber (single-spin flip) Monte Carlo, They measured for each cluster: number of spins n, number of bonds, l , number of cycles c, surface bonds s. From these they computed: clusters per site, spins per cluster, cycles per site, cycles per cluster, compactness A. 
+
+The paper measures how cluster size and shape change with temperature in a 2D Ising simulation using a quantitative geometric measure (the cyclomatic number). It shows that clusters are highly ramified at high temperature, become increasingly compact as the system approaches the critical temperature, and turn into compact droplets below Tc. It also connects the cluster size distribution at criticality to known critical exponents and scaling laws. The statistical definitions used for cluster averages, and the practical method of extracting shape information from bond and surface counts, provide a clear framework you can apply directly in your own simulations when comparing clusters across dimensions.
+
+
+## Article 6: Using the Random-Cluster Model for Ising Model Simulations
+This thesis derives, from first principles, how the Ising model can be reformulated into the Fortuin–Kasteleyn (FK) random-cluster representation using a path-integral and Poisson process formulation. It then shows how this representation leads naturally to cluster algorithms such as Swendsen–Wang, which are dramatically more efficient than single-spin Metropolis updates near the critical point. It then uses this to measure critical exponents and dynamic critical slowing down in the 2D Ising model.
+
+Clusters are the natural variables of the Ising model: Spins are not the “right” objects near criticality — clusters are. The FK representation shows that Ising behaviour can be described entirely in terms of connected components of bonds.
+Geometric meaning of FK clusters - Clusters are built by: Drawing “sticks” in time for each node. Adding bridges between nodes when certain operators occur. Connected sticks form a cluster. Some clusters are “wired” to a ghost node. 
+
+Key result: $μβ,h​(νi​)=Pr(i↔g)$ and $μβ,h(νiνj)=Pr⁡(i↔j)$, meaning Spin correlations are literally probabilities of belonging to the same cluster. Critical behaviour in cluster language: Near Tc​, clusters become very large, Correlation length = typical cluster size. Magnetisation = probability of being in a giant cluster. Metropolis fails near Tc as  Single spin flips so very slow decorrelation and Critical slowing down becomes severe. 
+
+This thesis shows that clusters are not just a geometric curiosity but the fundamental objects governing Ising model behaviour, with spin correlations directly equal to cluster connectivity probabilities. This provides both a theoretical and computational explanation for why cluster formation, size, and connectivity are central to understanding critical behaviour, and gives us a direct framework for interpreting our own cluster measurements in terms of correlation length, magnetisation, and critical scaling.
+
+
+# Overall Literature Summary
+The most directly relevant paper for this project is Domb and Stoll’s study of the shape and size of clusters in the two-dimensional Ising model. This work goes beyond simply counting spins in a cluster and introduces a quantitative geometric measure of cluster shape through the cyclomatic number and the coefficient of compactness. Using Monte Carlo simulations, the authors show how cluster size and shape change systematically with temperature, particularly as the system approaches the critical point. They demonstrate that clusters are highly ramified at high temperature, become increasingly compact near the critical temperature, and form dense droplet-like structures below it. The paper also connects the cluster size distribution at criticality to known critical exponents, providing both a practical framework for measuring cluster geometry in simulations and a clear theoretical link between cluster structure and critical behaviour.
+
+The theoretical foundation for studying clusters comes from the Fortuin–Kasteleyn random-cluster representation of the Ising model, as developed in Delboo’s thesis, which shows that spin correlations are directly equivalent to probabilities of sites belonging to the same cluster. This establishes clusters as the natural objects governing critical behaviour and explains why cluster-based algorithms dramatically reduce critical slowing down near the phase transition. Complementing this, the exact analytical study of cluster size distributions in the one-dimensional Ising model provides a valuable baseline case where clusters can be described exactly and no phase transition occurs. Together, these works show that cluster properties depend sensitively on dimensionality: in one dimension clusters remain finite and well-behaved, while in higher dimensions clusters grow, change shape, and become the dominant structures near the critical temperature. These papers therefore justify both the physical meaning of clusters and the importance of comparing their behaviour across different spatial dimensions.
+
+In this project, a cluster is defined as a connected component of nearest-neighbour spins with the same orientation on the lattice. Connectivity is determined purely by geometric adjacency, meaning that any neighbouring spins with the same sign belong to the same cluster. This definition matches the approach used in studies of cluster geometry such as Domb and Stoll, and allows direct measurement of cluster size, shape, and connectivity from simulation data. The physical significance of this definition is supported by the Fortuin–Kasteleyn representation of the Ising model, which shows that spin correlations correspond to probabilities of sites belonging to the same cluster, ensuring that these geometric clusters are directly linked to the underlying statistical physics of the system.
+
+
+
+

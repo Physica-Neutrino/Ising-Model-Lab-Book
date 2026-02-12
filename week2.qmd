@@ -1,0 +1,48 @@
+---
+title: "Week 2 Overview"
+---
+
+#### Main Activities: 
+- Installed Spyder 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * Installed Spyder as a more effective IDE that was very compatible with GitHub. 
+<br>
+- Reimagined Quarto
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * Used terminal and quarto preview to facilitate the lab book, rather than running through VS Editor. 
+- Edited and Developed Base Code
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * Edited and developed the code that was provided at the beginning of the project so that it was tailored. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to the project direction. 
+<br>
+- Created Code for the Clustering Algorithms 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I created the core of the code for the clustering algorithm. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * As a starting point, I decided to focus on the cluster size, shape and speed to converge, when very close
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to the critical temperature. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I am endeavouring, at this point, to try and establish the clustering attribute outcomes for 1D, 2D and 3D
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beginning with the 2D code. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I decided that it would be better to have a set code block for 1D, 2D and 3D, rather than a set code block
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for the attributes and then re-coding them every time for the dimension. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I also decided that it would be beneficial to use Monte-Carlo Metropolis methods rather than Wolff or 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swendsen due to the definition of a cluster. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * It was also important to establish the exact definition for a cluster. 
+
+
+#### Main Discoveries: 
+- Code core written
+<br>
+-  Definition of a cluster established: 
+<br>
+In this project, a cluster is defined as a connected component of nearest-neighbour spins with the same orientation on the lattice. Connectivity is determined purely by geometric adjacency, meaning that any neighbouring spins with the same sign belong to the same cluster. This definition matches the approach used in studies of cluster geometry such as Domb and Stoll, and allows direct measurement of cluster size, shape, and connectivity from simulation data. The physical significance of this definition is supported by the Fortuin–Kasteleyn representation of the Ising model, which shows that spin correlations correspond to probabilities of sites belonging to the same cluster, ensuring that these geometric clusters are directly linked to the underlying statistical physics of the system.
+

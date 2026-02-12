@@ -1,0 +1,25 @@
+---
+title: "Log Overview"
+---
+
+
+### Overview of the Weekly Log
+
+## Week One: 
+- Discussed options for project direction 
+- Set up GitHub 
+- Set up Quarto Website 
+- Found related literature
+- Read literature and performed literature review 
+- Identified possible direction for project  
+
+## Week Two: 
+- Installed Spyder and Reimagined Quarto
+- Edited and developed the base code
+- Created code for the Clustering Algorithm, specifically in 2D
+- Established Secure definition of a cluster  
+
+## Week Three: 
+- Adapted the Clustering Algorithm code created in week 2 to extend it to 1D and 3D
+- Produced a series of results and outputs for the 2D set-up
+- Updated the Lab Book so that it was functional on Quarto. 
