@@ -14,28 +14,23 @@ title: "Week 4 Overview"
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; graphs into log plots.   
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp; * Less needed changing for 1D - the only significant edit was how to graphically represent 1D shape. 
+&nbsp;&nbsp;&nbsp;&nbsp; * I varied the 2D Inputs to establish that the plots were functional and working well. 
 
-- Started to produce results 
+- Started to work in 3D
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp; * I started to produce a few preliminary results, starting with 2D. 
+&nbsp;&nbsp;&nbsp;&nbsp; * Given the success (hopefully) of the 2D coding, I decided to proceed on to the 3D code. 
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp; * I began with a very small cluster size to confirm that the code was functioning correctly.  
-&nbsp;&nbsp;&nbsp;&nbsp; * I then moved on to increasing the cluster size, noting that larger cluster sizes matched more closely 
+&nbsp;&nbsp;&nbsp;&nbsp; * My plan is to try the 3D coding and depending on it's success, structure my 2D inputs accordingly. 
+&nbsp;&nbsp;&nbsp;&nbsp; * I began to construct the code, again reading the literature to ensure that plots were as 
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  with the literature. A drawback to larger cluster sizes is the configuration time. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sophisticated and transparent as possible. 
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp; * I decided it was better to get concrete results for 2D before moving onto other dimensions. 
+&nbsp;&nbsp;&nbsp;&nbsp; * The biggest issue for this has been the complication times, as I needed to use big enough clusters to
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp; * To this end, I varied the temperature and cluster size to produce a series of results. 
-- Updated Lab Book
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp; * I put the information I had been collecting, such as the literature review notes, into the Lab book. 
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp; * I also inputted my entries for weeks 1-3 that I had been storing on alternative software until now.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; establish whether the plots were of a good quality.   
 
 
 #### Main Results: 
-- Have functional code in 1D and 3D
-- Produced a series of results and outputs for the 2D set-up
+- Have functional, more sophisticated and transparent plots for 2D. 
+- More sophisticated and functioning plots for 3D in the making. 
 - Updated Lab Book

@@ -23,3 +23,14 @@ title: "Log Overview"
 - Adapted the Clustering Algorithm code created in week 2 to extend it to 1D and 3D
 - Produced a series of results and outputs for the 2D set-up
 - Updated the Lab Book so that it was functional on Quarto. 
+
+## Week Four: 
+- Wrote functional, sophisticated and transparent plots for 2D clustering, based on the 2D work from week 3.  
+- Began to code more sophisticated and functioning code for the 3D clustering, in-line with the literature. 
+- Updated Lab Book to reflect current progress
+
+## Week Five: 
+- Finalised the code the 3D, producing 5 relevant and functional graphs.
+- Decided on a specific narrative for the project, selecting on the optimal graphs to reflect this. 
+- Adapted said optimal graphs to display the data for multiple temperatures around the critical value. 
+- Updated Lab Book to reflect current progress, as well as the equations sheet. 

@@ -1,0 +1,57 @@
+---
+title: "Week 5 Overview"
+---
+
+#### Main Activities: 
+- Finished Creating the Code in 3D
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I established which graphs would work in a direct transfer to 3D and which would need a lot of 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; alteration / need another way to visualise the data. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I wrote the re-worked the code that could go from 2D to 3D smoothly and wrote the code for the graphs
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; that needed visualising in a different way. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I structured the code in such a way that it would be very easy to alter the cluster size / number of 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; steps used the in the calculation. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * The final result for the coding was 5 comprehensive, relevant and functional graphs. 
+
+- Re-Stylised the 2D Code
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * Considering the report, I decided to specifically select which, out of the 7 plots, would be best 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; suited to include, and hence which 4 or 5 I should concentrate on polishing. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * Following this, I considered the narrative of the project and exactly what the graphs should convey.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * To this end, I decided to consider 5 different temperatures of the same cluster size, and plot the 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; results for all of these on the same graph for easy comparison. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I then proceeded to re-work the code to achieve this. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * Considering the compilation time of 300x300 clusters, once I had confirmed that the code was running 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for a 30x30 cluster, I left the programme to run overnight to obtain the graphs. 
+
+- Updated Lab Book to Include Equations list 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * As well as updating the Lab Book to reflect this week's work, I also created a page detailing the 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; equations used in this project. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I waited until now to do this as I didn't know exactly what I would include / exclude due to the 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; report constrains. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * I have been keeping them stored on another platform until this point. 
+
+
+
+#### Main Results: 
+- Fully working code for 3D, producing 5 relevant and functional graphs. 
+- Niched in on the 2D graphs to focus them towards the report, adapting these to reflect the data for multiple temperatures. 
+- Updated Lab Book to reflect this week's work as well as the equations sheet. 
