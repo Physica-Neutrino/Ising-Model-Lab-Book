@@ -14,60 +14,11 @@
     "text": "Main Activities:\n\nInstalled Spyder       * Installed Spyder as a more effective IDE that was very compatible with GitHub. \nReimagined Quarto       * Used terminal and quarto preview to facilitate the lab book, rather than running through VS Editor.\nEdited and Developed Base Code       * Edited and developed the code that was provided at the beginning of the project so that it was tailored.          to the project direction. \nCreated Code for the Clustering Algorithms       * I created the core of the code for the clustering algorithm.       * As a starting point, I decided to focus on the cluster size, shape and speed to converge, when very close          to the critical temperature.       * I am endeavouring, at this point, to try and establish the clustering attribute outcomes for 1D, 2D and 3D          beginning with the 2D code.       * I decided that it would be better to have a set code block for 1D, 2D and 3D, rather than a set code block          for the attributes and then re-coding them every time for the dimension.       * I also decided that it would be beneficial to use Monte-Carlo Metropolis methods rather than Wolff or          Swendsen due to the definition of a cluster.       * It was also important to establish the exact definition for a cluster.\n\n\n\nMain Discoveries:\n\nCode core written \nDefinition of a cluster established:  In this project, a cluster is defined as a connected component of nearest-neighbour spins with the same orientation on the lattice. Connectivity is determined purely by geometric adjacency, meaning that any neighbouring spins with the same sign belong to the same cluster. This definition matches the approach used in studies of cluster geometry such as Domb and Stoll, and allows direct measurement of cluster size, shape, and connectivity from simulation data. The physical significance of this definition is supported by the Fortuin–Kasteleyn representation of the Ising model, which shows that spin correlations correspond to probabilities of sites belonging to the same cluster, ensuring that these geometric clusters are directly linked to the underlying statistical physics of the system."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Third Year Labs - Ising Model",
+    "objectID": "week 5.html",
+    "href": "week 5.html",
+    "title": "Week 5 Overview",
     "section": "",
-    "text": "Minimal repository for third year labs exploring the Ising model."
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Third Year Labs - Ising Model",
-    "section": "",
-    "text": "Minimal repository for third year labs exploring the Ising model."
-  },
-  {
-    "objectID": "index.html#contents",
-    "href": "index.html#contents",
-    "title": "Third Year Labs - Ising Model",
-    "section": "Contents",
-    "text": "Contents\nThis repository contains code and reading materials for the Ising model practical."
-  },
-  {
-    "objectID": "equ.html",
-    "href": "equ.html",
-    "title": "Equations and Definitions",
-    "section": "",
-    "text": "This is to test the updating ability"
-  },
-  {
-    "objectID": "Weekly-Log.html#week-one",
-    "href": "Weekly-Log.html#week-one",
-    "title": "Log Overview",
-    "section": "Week One:",
-    "text": "Week One:\n\nDiscussed options for project direction\nSet up GitHub\nSet up Quarto Website\nFound related literature\nRead literature and performed literature review\nIdentified possible direction for project"
-  },
-  {
-    "objectID": "Weekly-Log.html#week-two",
-    "href": "Weekly-Log.html#week-two",
-    "title": "Log Overview",
-    "section": "Week Two:",
-    "text": "Week Two:\n\nInstalled Spyder and Reimagined Quarto\nEdited and developed the base code\nCreated code for the Clustering Algorithm, specifically in 2D\nEstablished Secure definition of a cluster"
-  },
-  {
-    "objectID": "Weekly-Log.html#week-three",
-    "href": "Weekly-Log.html#week-three",
-    "title": "Log Overview",
-    "section": "Week Three:",
-    "text": "Week Three:\n\nAdapted the Clustering Algorithm code created in week 2 to extend it to 1D and 3D\nProduced a series of results and outputs for the 2D set-up\nUpdated the Lab Book so that it was functional on Quarto."
-  },
-  {
-    "objectID": "Weekly-Log.html#week-four",
-    "href": "Weekly-Log.html#week-four",
-    "title": "Log Overview",
-    "section": "Week Four:",
-    "text": "Week Four:\n\nWrote functional, sophisticated and transparent plots for 2D clustering, based on the 2D work from week 3.\n\nBegan to code more sophisticated and functioning code for the 3D clustering, in-line with the literature.\nUpdated Lab Book to reflect current progress"
+    "text": "Main Activities:\n\nFinished Creating the Code in 3D       * I established which graphs would work in a direct transfer to 3D and which would need a lot of          alteration / need another way to visualise the data.       * I wrote the re-worked the code that could go from 2D to 3D smoothly and wrote the code for the graphs          that needed visualising in a different way.       * I structured the code in such a way that it would be very easy to alter the cluster size / number of          steps used the in the calculation.       * The final result for the coding was 5 comprehensive, relevant and functional graphs.\nRe-Stylised the 2D Code       * Considering the report, I decided to specifically select which, out of the 7 plots, would be best         suited to include, and hence which 4 or 5 I should concentrate on polishing.       * Following this, I considered the narrative of the project and exactly what the graphs should convey.       * To this end, I decided to consider 5 different temperatures of the same cluster size, and plot the         results for all of these on the same graph for easy comparison.       * I then proceeded to re-work the code to achieve this.       * Considering the compilation time of 300x300 clusters, once I had confirmed that the code was running         for a 30x30 cluster, I left the programme to run overnight to obtain the graphs.\nUpdated Lab Book to Include Equations list       * As well as updating the Lab Book to reflect this week’s work, I also created a page detailing the         equations used in this project.       * I waited until now to do this as I didn’t know exactly what I would include / exclude due to the         report constrains.       * I have been keeping them stored on another platform until this point.\n\n\n\nMain Results:\n\nFully working code for 3D, producing 5 relevant and functional graphs.\nNiched in on the 2D graphs to focus them towards the report, adapting these to reflect the data for multiple temperatures.\nUpdated Lab Book to reflect this week’s work as well as the equations sheet."
   },
   {
     "objectID": "lr.html",
@@ -117,6 +68,69 @@
     "title": "Literature Review",
     "section": "Article 6: Using the Random-Cluster Model for Ising Model Simulations",
     "text": "Article 6: Using the Random-Cluster Model for Ising Model Simulations\nThis thesis derives, from first principles, how the Ising model can be reformulated into the Fortuin–Kasteleyn (FK) random-cluster representation using a path-integral and Poisson process formulation. It then shows how this representation leads naturally to cluster algorithms such as Swendsen–Wang, which are dramatically more efficient than single-spin Metropolis updates near the critical point. It then uses this to measure critical exponents and dynamic critical slowing down in the 2D Ising model.\nClusters are the natural variables of the Ising model: Spins are not the “right” objects near criticality — clusters are. The FK representation shows that Ising behaviour can be described entirely in terms of connected components of bonds. Geometric meaning of FK clusters - Clusters are built by: Drawing “sticks” in time for each node. Adding bridges between nodes when certain operators occur. Connected sticks form a cluster. Some clusters are “wired” to a ghost node.\nKey result: \\(μβ,h​(νi​)=Pr(i↔g)\\) and \\(μβ,h(νiνj)=Pr⁡(i↔j)\\), meaning Spin correlations are literally probabilities of belonging to the same cluster. Critical behaviour in cluster language: Near Tc​, clusters become very large, Correlation length = typical cluster size. Magnetisation = probability of being in a giant cluster. Metropolis fails near Tc as Single spin flips so very slow decorrelation and Critical slowing down becomes severe.\nThis thesis shows that clusters are not just a geometric curiosity but the fundamental objects governing Ising model behaviour, with spin correlations directly equal to cluster connectivity probabilities. This provides both a theoretical and computational explanation for why cluster formation, size, and connectivity are central to understanding critical behaviour, and gives us a direct framework for interpreting our own cluster measurements in terms of correlation length, magnetisation, and critical scaling."
+  },
+  {
+    "objectID": "Weekly-Log.html#week-one",
+    "href": "Weekly-Log.html#week-one",
+    "title": "Log Overview",
+    "section": "Week One:",
+    "text": "Week One:\n\nDiscussed options for project direction\nSet up GitHub\nSet up Quarto Website\nFound related literature\nRead literature and performed literature review\nIdentified possible direction for project"
+  },
+  {
+    "objectID": "Weekly-Log.html#week-two",
+    "href": "Weekly-Log.html#week-two",
+    "title": "Log Overview",
+    "section": "Week Two:",
+    "text": "Week Two:\n\nInstalled Spyder and Reimagined Quarto\nEdited and developed the base code\nCreated code for the Clustering Algorithm, specifically in 2D\nEstablished Secure definition of a cluster"
+  },
+  {
+    "objectID": "Weekly-Log.html#week-three",
+    "href": "Weekly-Log.html#week-three",
+    "title": "Log Overview",
+    "section": "Week Three:",
+    "text": "Week Three:\n\nAdapted the Clustering Algorithm code created in week 2 to extend it to 1D and 3D\nProduced a series of results and outputs for the 2D set-up\nUpdated the Lab Book so that it was functional on Quarto."
+  },
+  {
+    "objectID": "Weekly-Log.html#week-four",
+    "href": "Weekly-Log.html#week-four",
+    "title": "Log Overview",
+    "section": "Week Four:",
+    "text": "Week Four:\n\nWrote functional, sophisticated and transparent plots for 2D clustering, based on the 2D work from week 3.\n\nBegan to code more sophisticated and functioning code for the 3D clustering, in-line with the literature.\nUpdated Lab Book to reflect current progress"
+  },
+  {
+    "objectID": "Weekly-Log.html#week-five",
+    "href": "Weekly-Log.html#week-five",
+    "title": "Log Overview",
+    "section": "Week Five:",
+    "text": "Week Five:\n\nFinalised the code the 3D, producing 5 relevant and functional graphs.\nDecided on a specific narrative for the project, selecting on the optimal graphs to reflect this.\nAdapted said optimal graphs to display the data for multiple temperatures around the critical value.\nUpdated Lab Book to reflect current progress, as well as the equations sheet."
+  },
+  {
+    "objectID": "equ.html",
+    "href": "equ.html",
+    "title": "Equations and Definitions",
+    "section": "",
+    "text": "This is to test the updating ability"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Third Year Labs - Ising Model",
+    "section": "",
+    "text": "Minimal repository for third year labs exploring the Ising model."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Third Year Labs - Ising Model",
+    "section": "",
+    "text": "Minimal repository for third year labs exploring the Ising model."
+  },
+  {
+    "objectID": "index.html#contents",
+    "href": "index.html#contents",
+    "title": "Third Year Labs - Ising Model",
+    "section": "Contents",
+    "text": "Contents\nThis repository contains code and reading materials for the Ising model practical."
   },
   {
     "objectID": "week1.html",
