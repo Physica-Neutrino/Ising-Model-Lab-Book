@@ -21,6 +21,8 @@ website:
             href: week4.qmd
           - text: "Week 5"
             href: week5.qmd
+          - text: "Week 6"
+            href: week6.qmd
       - href: equ.qmd
         text: "Equations and Definitions"
 

@@ -34,3 +34,8 @@ title: "Log Overview"
 - Decided on a specific narrative for the project, selecting on the optimal graphs to reflect this. 
 - Adapted said optimal graphs to display the data for multiple temperatures around the critical value. 
 - Updated Lab Book to reflect current progress, as well as the equations sheet. 
+
+## Week Six: 
+- Adapted the 2D code to aid running efficiency, ensuring large cluster sizes could be sustainably achieved.  
+- Continued writing the report, focusing on the theory, methods, results and references sections. 
+- Updated Lab Book to reflect to ensure that the weekly log was complete and the main page was detailed, ready for submission. 

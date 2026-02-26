@@ -2,10 +2,12 @@
 title: "Third Year Labs - Ising Model"
 ---
 
-## About
+## Project Overview 
 
 Minimal repository for third year labs exploring the Ising model.
 
-## Contents
+## Key Definitions Used in The Project 
 
-This repository contains code and reading materials for the Ising model practical.
+## Literature Review 
+
+Please [click here](lr.qmd) to see the full literature review 

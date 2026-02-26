@@ -18,7 +18,7 @@ Article 6: [Using the Random-Cluster Model for Ising Model Simulations](https://
 
 ## Literature Summaries
 
-### Article 1: Cluster Algorithm for the Ising Model
+## Article 1: Cluster Algorithm for the Ising Model
 
 Describes cluster-based Monte Carlo algorithms for the Ising model — specifically the Swendsen–Wang algorithm, which builds clusters of same-spin sites and flips them as whole units instead of flipping spins one by one. It also covers related techniques for quantum Monte Carlo, but the core part that connects to your questions is the cluster formation and identification.
 
@@ -29,7 +29,7 @@ Equation: $P(b_{ij}=1)=1−e^{-2βJ}$. This governs bond formation and hence clu
 
 Computational method: generate bonds, identify clusters via graph traversal, flip clusters as collective units
 
-### Article 2: “Clusters” in the king Model, Metastable States and Essential Singularity
+## Article 2: “Clusters” in the king Model, Metastable States and Essential Singularity
 
 Discusses different ways to define clusters in the Ising model, how those definitions relate to critical phenomena and nucleation theory, and how cluster concentrations scale near critical points using both theoretical arguments and Monte Carlo results. It explores how cluster statistics behave, including a crossover from critical to geometric behaviour, and relates cluster fluctuations to thermodynamic singularities and metastable states.
 
