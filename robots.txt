@@ -1,1 +1,0 @@
-Sitemap: https://Physica-Neutrino.github.io/Ising-Model-Lab-Book/sitemap.xml
