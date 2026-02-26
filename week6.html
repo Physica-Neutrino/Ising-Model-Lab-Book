@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Week 2 Overview – Third Year Labs - Ising Model</title>
+<title>Week 6 Overview – Third Year Labs - Ising Model</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 2 Overview</h1>
+<h1 class="title">Week 6 Overview</h1>
 </div>
 
 
@@ -172,17 +172,18 @@ ul.task-list li input[type="checkbox"] {
 <section id="main-activities" class="level4">
 <h4 class="anchored" data-anchor-id="main-activities">Main Activities:</h4>
 <ul>
-<li>Installed Spyder <br> &nbsp;&nbsp;&nbsp;&nbsp; * Installed Spyder as a more effective IDE that was very compatible with GitHub. <br></li>
-<li>Reimagined Quarto <br> &nbsp;&nbsp;&nbsp;&nbsp; * Used terminal and quarto preview to facilitate the lab book, rather than running through VS Editor.</li>
-<li>Edited and Developed Base Code <br> &nbsp;&nbsp;&nbsp;&nbsp; * Edited and developed the code that was provided at the beginning of the project so that it was tailored. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to the project direction. <br></li>
-<li>Created Code for the Clustering Algorithms <br> &nbsp;&nbsp;&nbsp;&nbsp; * I created the core of the code for the clustering algorithm. <br> &nbsp;&nbsp;&nbsp;&nbsp; * As a starting point, I decided to focus on the cluster size, shape and speed to converge, when very close <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to the critical temperature. <br> &nbsp;&nbsp;&nbsp;&nbsp; * I am endeavouring, at this point, to try and establish the clustering attribute outcomes for 1D, 2D and 3D <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beginning with the 2D code. <br> &nbsp;&nbsp;&nbsp;&nbsp; * I decided that it would be better to have a set code block for 1D, 2D and 3D, rather than a set code block <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for the attributes and then re-coding them every time for the dimension. <br> &nbsp;&nbsp;&nbsp;&nbsp; * I also decided that it would be beneficial to use Monte-Carlo Metropolis methods rather than Wolff or <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swendsen due to the definition of a cluster. <br> &nbsp;&nbsp;&nbsp;&nbsp; * It was also important to establish the exact definition for a cluster.</li>
+<li><p>Adapted Code in 2D to aid running efficiency <br> &nbsp;&nbsp;&nbsp;&nbsp; * Whilst the 2D code produced in week 5 was running, it was very slow to produce the 300x300 cluster, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; running with 20,000 steps. <br> &nbsp;&nbsp;&nbsp;&nbsp; * I wrote the re-worked the code so that it would run in on block on Jupyter Notebook, as it seemed <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this could decrease run times. <br> &nbsp;&nbsp;&nbsp;&nbsp; * I also added a section to the code to produce a plot for each temperature output, visually displaying <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the cluster shape and largest cluster size. <br></p></li>
+<li><p>Continued with Report Writing <br> &nbsp;&nbsp;&nbsp;&nbsp; * Further to my previous report writing done for this project, I started to focus on the theory, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; methods, results and references sections. <br> &nbsp;&nbsp;&nbsp;&nbsp; * For the theory / methods section, I have used the equations compiled in week 5, along with an overview <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; of the coding methods used. <br> &nbsp;&nbsp;&nbsp;&nbsp; * For the referencing, I have used mybib.com to produce the citations, using Vancouver referring. <br> &nbsp;&nbsp;&nbsp;&nbsp; * I have decided to include these in the report as plain references, rather than employing the <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; specific latex functionality, as previously that has been very unsuccessful. <br> &nbsp;&nbsp;&nbsp;&nbsp; * Once the code has complied, I then began by inputting the figures into latex, ensuring that the sizing <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; was uniform, orderly and optimal, from both readability and space-saving perspectives. <br> &nbsp;&nbsp;&nbsp;&nbsp; * I then proceeded to write the captions for all of these graphs. <br> &nbsp;&nbsp;&nbsp;&nbsp; * Given the limited space, I selected the cluster graphs that contained the most information and best <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assisted the narrative, and created a single plot to contain these 4 graphs.</p></li>
+<li><p>Finalised the Lab Book <br> &nbsp;&nbsp;&nbsp;&nbsp; * Given this is the last week of experiments, I decided to finalise the lab book. <br> &nbsp;&nbsp;&nbsp;&nbsp; * I ensured that the weekly log was complete and up-to-date, that the equations page was functioning <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and that the main page included relevant and completed information.</p></li>
 </ul>
 </section>
-<section id="main-discoveries" class="level4">
-<h4 class="anchored" data-anchor-id="main-discoveries">Main Discoveries:</h4>
+<section id="main-results" class="level4">
+<h4 class="anchored" data-anchor-id="main-results">Main Results:</h4>
 <ul>
-<li>Code core written <br></li>
-<li>Definition of a cluster established: <br> In this project, a cluster is defined as a connected component of nearest-neighbour spins with the same orientation on the lattice. Connectivity is determined purely by geometric adjacency, meaning that any neighbouring spins with the same sign belong to the same cluster. This definition matches the approach used in studies of cluster geometry such as Domb and Stoll, and allows direct measurement of cluster size, shape, and connectivity from simulation data. The physical significance of this definition is supported by the Fortuin–Kasteleyn representation of the Ising model, which shows that spin correlations correspond to probabilities of sites belonging to the same cluster, ensuring that these geometric clusters are directly linked to the underlying statistical physics of the system.</li>
+<li>Adapted the 2D code to aid running efficiency, ensuring large cluster sizes could be sustainably achieved.<br>
+</li>
+<li>Continued writing the report, focusing on the theory, methods, results and references sections.</li>
+<li>Updated Lab Book to reflect to ensure that the weekly log was complete and the main page was detailed, ready for submission.</li>
 </ul>
 
 

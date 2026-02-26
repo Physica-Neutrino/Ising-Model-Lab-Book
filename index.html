@@ -120,8 +120,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Week 4</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./week5.qmd">
+    <a class="dropdown-item" href="./week5.html">
  <span class="dropdown-text">Week 5</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./week6.html">
+ <span class="dropdown-text">Week 6</span></a>
   </li>  
     </ul>
   </li>
@@ -145,8 +149,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
-  <li><a href="#contents" id="toc-contents" class="nav-link" data-scroll-target="#contents">Contents</a></li>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#key-definitions-used-in-the-project" id="toc-key-definitions-used-in-the-project" class="nav-link" data-scroll-target="#key-definitions-used-in-the-project">Key Definitions Used in The Project</a></li>
+  <li><a href="#literature-review" id="toc-literature-review" class="nav-link" data-scroll-target="#literature-review">Literature Review</a></li>
   </ul>
 </nav>
     </div>
@@ -172,13 +177,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="about" class="level2">
-<h2 class="anchored" data-anchor-id="about">About</h2>
-<p>Minimal repository for third year labs exploring the Ising model.</p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This project involves identifying clusters of like spins and measuring how their size, shape, and evolution depend on temperature, revealing how cluster geometry underlies critical behaviour in the 2D Ising model.</p>
 </section>
-<section id="contents" class="level2">
-<h2 class="anchored" data-anchor-id="contents">Contents</h2>
-<p>This repository contains code and reading materials for the Ising model practical.</p>
+<section id="key-definitions-used-in-the-project" class="level2">
+<h2 class="anchored" data-anchor-id="key-definitions-used-in-the-project">Key Definitions Used in The Project</h2>
+<ul>
+<li>In this project, a cluster is defined as a connected component of nearest-neighbour spins with the same orientation on the lattice. Connectivity is determined purely by geometric adjacency, meaning that any neighbouring spins with the same sign belong to the same cluster. This definition matches the approach used in studies of cluster geometry such as Domb and Stoll, and allows direct measurement of cluster size, shape, and connectivity from simulation data. The physical significance of this definition is supported by the Fortuin–Kasteleyn representation of the Ising model, which shows that spin correlations correspond to probabilities of sites belonging to the same cluster, ensuring that these geometric clusters are directly linked to the underlying statistical physics of the system.</li>
+</ul>
+</section>
+<section id="literature-review" class="level2">
+<h2 class="anchored" data-anchor-id="literature-review">Literature Review</h2>
+<p>A literature review was conducted to understand other project conducted within the Clusters remit. Details of this can be found <a href="./lr.html">here</a>.</p>
 
 
 </section>

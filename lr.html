@@ -149,8 +149,12 @@ window.Quarto = {
  <span class="dropdown-text">Week 4</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./week5.qmd">
+    <a class="dropdown-item" href="./week5.html">
  <span class="dropdown-text">Week 5</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./week6.html">
+ <span class="dropdown-text">Week 6</span></a>
   </li>  
     </ul>
   </li>
@@ -175,11 +179,9 @@ window.Quarto = {
    
   <ul>
   <li><a href="#articles" id="toc-articles" class="nav-link active" data-scroll-target="#articles">Articles:</a></li>
-  <li><a href="#literature-summaries" id="toc-literature-summaries" class="nav-link" data-scroll-target="#literature-summaries">Literature Summaries</a>
-  <ul class="collapse">
+  <li><a href="#literature-summaries" id="toc-literature-summaries" class="nav-link" data-scroll-target="#literature-summaries">Literature Summaries</a></li>
   <li><a href="#article-1-cluster-algorithm-for-the-ising-model" id="toc-article-1-cluster-algorithm-for-the-ising-model" class="nav-link" data-scroll-target="#article-1-cluster-algorithm-for-the-ising-model">Article 1: Cluster Algorithm for the Ising Model</a></li>
   <li><a href="#article-2-clusters-in-the-king-model-metastable-states-and-essential-singularity" id="toc-article-2-clusters-in-the-king-model-metastable-states-and-essential-singularity" class="nav-link" data-scroll-target="#article-2-clusters-in-the-king-model-metastable-states-and-essential-singularity">Article 2: “Clusters” in the king Model, Metastable States and Essential Singularity</a></li>
-  </ul></li>
   <li><a href="#article-3-the-fcc-ising-model-in-the-cluster-variation-approximation" id="toc-article-3-the-fcc-ising-model-in-the-cluster-variation-approximation" class="nav-link" data-scroll-target="#article-3-the-fcc-ising-model-in-the-cluster-variation-approximation">Article 3: The FCC Ising Model in the cluster variation approximation</a></li>
   <li><a href="#article-4-exact-cluster-size-distribution-in-the-one-dimensional-ising-model" id="toc-article-4-exact-cluster-size-distribution-in-the-one-dimensional-ising-model" class="nav-link" data-scroll-target="#article-4-exact-cluster-size-distribution-in-the-one-dimensional-ising-model">Article 4: Exact cluster size distribution in the one-dimensional Ising model</a></li>
   <li><a href="#article-5-shape-and-size-of-clusters-in-the-ising-model" id="toc-article-5-shape-and-size-of-clusters-in-the-ising-model" class="nav-link" data-scroll-target="#article-5-shape-and-size-of-clusters-in-the-ising-model">Article 5: Shape and size of clusters in the Ising model</a></li>
@@ -221,19 +223,19 @@ window.Quarto = {
 </section>
 <section id="literature-summaries" class="level2">
 <h2 class="anchored" data-anchor-id="literature-summaries">Literature Summaries</h2>
-<section id="article-1-cluster-algorithm-for-the-ising-model" class="level3">
-<h3 class="anchored" data-anchor-id="article-1-cluster-algorithm-for-the-ising-model">Article 1: Cluster Algorithm for the Ising Model</h3>
+</section>
+<section id="article-1-cluster-algorithm-for-the-ising-model" class="level2">
+<h2 class="anchored" data-anchor-id="article-1-cluster-algorithm-for-the-ising-model">Article 1: Cluster Algorithm for the Ising Model</h2>
 <p>Describes cluster-based Monte Carlo algorithms for the Ising model — specifically the Swendsen–Wang algorithm, which builds clusters of same-spin sites and flips them as whole units instead of flipping spins one by one. It also covers related techniques for quantum Monte Carlo, but the core part that connects to your questions is the cluster formation and identification.</p>
 <p>Defines a cluster as a group of spins that are the same orientation (all +1 or all −1) or connected via “active” bonds. Bonds are formed only between neighbouring spins that are aligned. Treats cluster formation as a core structural object of simulation, not arbitrary grouping - therefore they have physical meaning in terms of connected spins linked by thermal weighting, and also algorithmic meaning.</p>
 <p>Cluster Construction Rule: For each nearest-neighbour pair <span class="math inline">\((_i,_j)(_i,_j)\)</span>. If spins match: <span class="math inline">\(σ_i=σ_jσ_i​=σ_j\)</span>, a bond may be activated between them. If spins differ: <span class="math inline">\(σ_i≠σ_jσ_i​=σ_j​\)</span>, no bond is formed. Bond activation is probabilistic, with probability based on temperature and interaction strength. Equation: <span class="math inline">\(P(b_{ij}=1)=1−e^{-2βJ}\)</span>. This governs bond formation and hence cluster structure</p>
 <p>Computational method: generate bonds, identify clusters via graph traversal, flip clusters as collective units</p>
 </section>
-<section id="article-2-clusters-in-the-king-model-metastable-states-and-essential-singularity" class="level3">
-<h3 class="anchored" data-anchor-id="article-2-clusters-in-the-king-model-metastable-states-and-essential-singularity">Article 2: “Clusters” in the king Model, Metastable States and Essential Singularity</h3>
+<section id="article-2-clusters-in-the-king-model-metastable-states-and-essential-singularity" class="level2">
+<h2 class="anchored" data-anchor-id="article-2-clusters-in-the-king-model-metastable-states-and-essential-singularity">Article 2: “Clusters” in the king Model, Metastable States and Essential Singularity</h2>
 <p>Discusses different ways to define clusters in the Ising model, how those definitions relate to critical phenomena and nucleation theory, and how cluster concentrations scale near critical points using both theoretical arguments and Monte Carlo results. It explores how cluster statistics behave, including a crossover from critical to geometric behaviour, and relates cluster fluctuations to thermodynamic singularities and metastable states.</p>
 <p>Cluster Definitions: Clusters are described in terms of a contour surrounding flipped spins — effectively a geometric object defined by size <span class="math inline">\(ss\)</span> and number of reversed spins <span class="math inline">\(ll\)</span>. The paper shows that critical behaviour of clusters is not dominated by fully “ramified” (tree-like) clusters — contrary to some earlier conjectures. For large clusters, a crossover to “geometric” behaviour is observed, meaning clusters behave like percolation objects at large scales. This crossover is interpreted using standard scaling theory of critical phenomena.</p>
 <p>Paper connects cluster properties in the Ising model directly to critical scaling behaviour near the phase transition. By introducing the cluster concentration function <span class="math inline">\(p_{(l,s)}p_{(l,s)}\)</span>, which depends on both the number of flipped spins and the geometric size of the enclosing contour, it shows that cluster size and shape distributions obey scaling laws consistent with universal critical behaviour. It also demonstrates that clusters at criticality are not simply highly ramified, tree-like structures, but instead exhibit more complex geometric characteristics that reflect the underlying physics of the phase transition. Its scaling arguments imply that cluster statistics are governed by the same principles that determine critical exponents, linking geometric cluster properties to thermodynamic critical phenomena.</p>
-</section>
 </section>
 <section id="article-3-the-fcc-ising-model-in-the-cluster-variation-approximation" class="level2">
 <h2 class="anchored" data-anchor-id="article-3-the-fcc-ising-model-in-the-cluster-variation-approximation">Article 3: The FCC Ising Model in the cluster variation approximation</h2>
