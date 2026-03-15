@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>10&nbsp; Equations – Third Year Labs - Ising Model</title>
+<title>9&nbsp; Week 7 &amp; 8 Overview – Third Year Labs - Ising Model</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./week7.html" rel="prev">
+<link href="./equ.html" rel="next">
+<link href="./week6.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -70,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -112,7 +84,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./equ.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Equations and Definitions</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week7.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 7 &amp; 8</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -187,13 +159,13 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week7.html" class="sidebar-item-text sidebar-link">
+  <a href="./week7.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 7 &amp; 8</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./equ.html" class="sidebar-item-text sidebar-link active">
+  <a href="./equ.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Equations and Definitions</span></span></a>
   </div>
 </li>
@@ -202,44 +174,15 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#inverse-temperature" id="toc-inverse-temperature" class="nav-link active" data-scroll-target="#inverse-temperature"><span class="header-section-number">10.1</span> Inverse temperature</a></li>
-  <li><a href="#spin-variables" id="toc-spin-variables" class="nav-link" data-scroll-target="#spin-variables"><span class="header-section-number">10.2</span> Spin variables</a></li>
-  <li><a href="#total-number-of-sites" id="toc-total-number-of-sites" class="nav-link" data-scroll-target="#total-number-of-sites"><span class="header-section-number">10.3</span> Total number of sites</a></li>
-  <li><a href="#ising-hamiltonian" id="toc-ising-hamiltonian" class="nav-link" data-scroll-target="#ising-hamiltonian"><span class="header-section-number">10.4</span> Ising Hamiltonian</a></li>
-  <li><a href="#energy-change-for-a-trial-spin-flip" id="toc-energy-change-for-a-trial-spin-flip" class="nav-link" data-scroll-target="#energy-change-for-a-trial-spin-flip"><span class="header-section-number">10.5</span> Energy change for a trial spin flip</a></li>
-  <li><a href="#metropolis-acceptance-rule" id="toc-metropolis-acceptance-rule" class="nav-link" data-scroll-target="#metropolis-acceptance-rule"><span class="header-section-number">10.6</span> Metropolis acceptance rule</a></li>
-  <li><a href="#periodic-boundary-condition" id="toc-periodic-boundary-condition" class="nav-link" data-scroll-target="#periodic-boundary-condition"><span class="header-section-number">10.7</span> Periodic boundary condition</a></li>
-  <li><a href="#magnetisation" id="toc-magnetisation" class="nav-link" data-scroll-target="#magnetisation"><span class="header-section-number">10.8</span> Magnetisation</a></li>
-  <li><a href="#energy-of-a-configuration" id="toc-energy-of-a-configuration" class="nav-link" data-scroll-target="#energy-of-a-configuration"><span class="header-section-number">10.9</span> Energy of a configuration</a></li>
-  <li><a href="#cluster-size" id="toc-cluster-size" class="nav-link" data-scroll-target="#cluster-size"><span class="header-section-number">10.10</span> Cluster size</a></li>
-  <li><a href="#cluster-number-density" id="toc-cluster-number-density" class="nav-link" data-scroll-target="#cluster-number-density"><span class="header-section-number">10.11</span> Cluster number density</a></li>
-  <li><a href="#mean-cluster-number-density" id="toc-mean-cluster-number-density" class="nav-link" data-scroll-target="#mean-cluster-number-density"><span class="header-section-number">10.12</span> Mean cluster number density</a></li>
-  <li><a href="#standard-error-of-the-mean" id="toc-standard-error-of-the-mean" class="nav-link" data-scroll-target="#standard-error-of-the-mean"><span class="header-section-number">10.13</span> Standard error of the mean</a></li>
-  <li><a href="#power-law-cluster-size-distribution" id="toc-power-law-cluster-size-distribution" class="nav-link" data-scroll-target="#power-law-cluster-size-distribution"><span class="header-section-number">10.14</span> Power-law cluster size distribution</a></li>
-  <li><a href="#radius-of-gyration-squared" id="toc-radius-of-gyration-squared" class="nav-link" data-scroll-target="#radius-of-gyration-squared"><span class="header-section-number">10.15</span> Radius of gyration squared</a></li>
-  <li><a href="#circular-mean-mapping" id="toc-circular-mean-mapping" class="nav-link" data-scroll-target="#circular-mean-mapping"><span class="header-section-number">10.16</span> Circular mean mapping</a></li>
-  <li><a href="#cluster-extent" id="toc-cluster-extent" class="nav-link" data-scroll-target="#cluster-extent"><span class="header-section-number">10.17</span> Cluster extent</a></li>
-  <li><a href="#spanning-criterion" id="toc-spanning-criterion" class="nav-link" data-scroll-target="#spanning-criterion"><span class="header-section-number">10.18</span> Spanning criterion</a></li>
-  <li><a href="#cyclomatic-number" id="toc-cyclomatic-number" class="nav-link" data-scroll-target="#cyclomatic-number"><span class="header-section-number">10.19</span> Cyclomatic number</a></li>
-  <li><a href="#compactness-measure" id="toc-compactness-measure" class="nav-link" data-scroll-target="#compactness-measure"><span class="header-section-number">10.20</span> Compactness measure</a></li>
-  <li><a href="#largest-cluster-fraction" id="toc-largest-cluster-fraction" class="nav-link" data-scroll-target="#largest-cluster-fraction"><span class="header-section-number">10.21</span> Largest-cluster fraction</a></li>
-  <li><a href="#autocorrelation-function" id="toc-autocorrelation-function" class="nav-link" data-scroll-target="#autocorrelation-function"><span class="header-section-number">10.22</span> Autocorrelation function</a></li>
-  <li><a href="#decorrelation-time" id="toc-decorrelation-time" class="nav-link" data-scroll-target="#decorrelation-time"><span class="header-section-number">10.23</span> Decorrelation time</a></li>
-  <li><a href="#logarithmic-binning" id="toc-logarithmic-binning" class="nav-link" data-scroll-target="#logarithmic-binning"><span class="header-section-number">10.24</span> Logarithmic binning</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Equations</span></h1>
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 7 &amp; 8 Overview</span></h1>
 </div>
 
 
@@ -256,182 +199,31 @@ window.Quarto = {
 </header>
 
 
-<section id="inverse-temperature" class="level2" data-number="10.1">
-<h2 data-number="10.1" class="anchored" data-anchor-id="inverse-temperature"><span class="header-section-number">10.1</span> Inverse temperature</h2>
-<p><span class="math display">\[
-\beta = \frac{1}{k_B T}
-\]</span></p>
-<p><span class="math display">\[
-\beta = \frac{1}{T}
-\]</span></p>
+<section id="main-activities" class="level4" data-number="9.0.0.1">
+<h4 data-number="9.0.0.1" class="anchored" data-anchor-id="main-activities"><span class="header-section-number">9.0.0.1</span> Main Activities:</h4>
+<ul>
+<li><p>Worked on / Completed Report</p>
+<ul>
+<li>I commenced writing the report, doing so in several drafts so that all information was considered before shortening the report to fit in to the 4 pages.</li>
+<li>I decided to prioritise space to results / discussion, rather than introduction and theory.</li>
+<li>I tried to recompile to produce Figure 2, to make the colours more visually pleasing. Unfortunately, this was not possible due to Python Kernel failure.</li>
+<li>I carefully selected the best / most influential equations, which would contribute most to the narrative of the report.</li>
+<li>I ensured that references were present in the report and that citations were made accordingly.</li>
+<li>I edited the report thoroughly.</li>
+</ul></li>
+<li><p>Finalised the Lab Book</p>
+<ul>
+<li>I continued with the Lab Book log for weeks 7 and 8.</li>
+<li>I ensured that the weekly log was complete and up-to-date, that the equations page was functioning and that the main page included relevant and completed information.</li>
+</ul></li>
+</ul>
 </section>
-<section id="spin-variables" class="level2" data-number="10.2">
-<h2 data-number="10.2" class="anchored" data-anchor-id="spin-variables"><span class="header-section-number">10.2</span> Spin variables</h2>
-<p><span class="math display">\[
-s_i \in \{+1,-1\}
-\]</span></p>
-</section>
-<section id="total-number-of-sites" class="level2" data-number="10.3">
-<h2 data-number="10.3" class="anchored" data-anchor-id="total-number-of-sites"><span class="header-section-number">10.3</span> Total number of sites</h2>
-<p><span class="math display">\[
-N = L^d
-\]</span></p>
-<p><span class="math display">\[
-N = L^2
-\]</span></p>
-</section>
-<section id="ising-hamiltonian" class="level2" data-number="10.4">
-<h2 data-number="10.4" class="anchored" data-anchor-id="ising-hamiltonian"><span class="header-section-number">10.4</span> Ising Hamiltonian</h2>
-<p><span class="math display">\[
-H = -J \sum_{\langle i,j \rangle} s_i s_j
-\]</span></p>
-<p><span class="math display">\[
-H = - \sum_{\langle i,j \rangle} s_i s_j
-\]</span></p>
-</section>
-<section id="energy-change-for-a-trial-spin-flip" class="level2" data-number="10.5">
-<h2 data-number="10.5" class="anchored" data-anchor-id="energy-change-for-a-trial-spin-flip"><span class="header-section-number">10.5</span> Energy change for a trial spin flip</h2>
-<p><span class="math display">\[
-\Delta E = 2s \sum_{\text{nn}} s_j
-\]</span></p>
-</section>
-<section id="metropolis-acceptance-rule" class="level2" data-number="10.6">
-<h2 data-number="10.6" class="anchored" data-anchor-id="metropolis-acceptance-rule"><span class="header-section-number">10.6</span> Metropolis acceptance rule</h2>
-<p><span class="math display">\[
-P_{\mathrm{acc}} = e^{-\beta \Delta E}
-\]</span></p>
-</section>
-<section id="periodic-boundary-condition" class="level2" data-number="10.7">
-<h2 data-number="10.7" class="anchored" data-anchor-id="periodic-boundary-condition"><span class="header-section-number">10.7</span> Periodic boundary condition</h2>
-<p><span class="math display">\[
-x \equiv x + L
-\]</span></p>
-</section>
-<section id="magnetisation" class="level2" data-number="10.8">
-<h2 data-number="10.8" class="anchored" data-anchor-id="magnetisation"><span class="header-section-number">10.8</span> Magnetisation</h2>
-<p><span class="math display">\[
-M = \sum_i s_i
-\]</span></p>
-<p><span class="math display">\[
-m = \frac{M}{N}
-\]</span></p>
-</section>
-<section id="energy-of-a-configuration" class="level2" data-number="10.9">
-<h2 data-number="10.9" class="anchored" data-anchor-id="energy-of-a-configuration"><span class="header-section-number">10.9</span> Energy of a configuration</h2>
-<p><span class="math display">\[
-E = - \sum_{\langle i,j \rangle} s_i s_j
-\]</span></p>
-</section>
-<section id="cluster-size" class="level2" data-number="10.10">
-<h2 data-number="10.10" class="anchored" data-anchor-id="cluster-size"><span class="header-section-number">10.10</span> Cluster size</h2>
-<p><span class="math display">\[
-n_k = \#\{ i \in k \}
-\]</span></p>
-</section>
-<section id="cluster-number-density" class="level2" data-number="10.11">
-<h2 data-number="10.11" class="anchored" data-anchor-id="cluster-number-density"><span class="header-section-number">10.11</span> Cluster number density</h2>
-<p><span class="math display">\[
-z(n) = \frac{c_n}{N}
-\]</span></p>
-</section>
-<section id="mean-cluster-number-density" class="level2" data-number="10.12">
-<h2 data-number="10.12" class="anchored" data-anchor-id="mean-cluster-number-density"><span class="header-section-number">10.12</span> Mean cluster number density</h2>
-<p><span class="math display">\[
-\bar{z}(n) =
-\frac{1}{M}
-\sum_{m=1}^{M}
-z_m(n)
-\]</span></p>
-</section>
-<section id="standard-error-of-the-mean" class="level2" data-number="10.13">
-<h2 data-number="10.13" class="anchored" data-anchor-id="standard-error-of-the-mean"><span class="header-section-number">10.13</span> Standard error of the mean</h2>
-<p><span class="math display">\[
-\mathrm{SEM}[z(n)] =
-\frac{\sigma[z(n)]}{\sqrt{M}}
-\]</span></p>
-</section>
-<section id="power-law-cluster-size-distribution" class="level2" data-number="10.14">
-<h2 data-number="10.14" class="anchored" data-anchor-id="power-law-cluster-size-distribution"><span class="header-section-number">10.14</span> Power-law cluster size distribution</h2>
-<p><span class="math display">\[
-z(n) \propto n^{m}
-\]</span></p>
-<p><span class="math display">\[
-\log z(n) = m \log n + b
-\]</span></p>
-</section>
-<section id="radius-of-gyration-squared" class="level2" data-number="10.15">
-<h2 data-number="10.15" class="anchored" data-anchor-id="radius-of-gyration-squared"><span class="header-section-number">10.15</span> Radius of gyration squared</h2>
-<p><span class="math display">\[
-R_g^2 =
-\frac{1}{n}
-\sum_{i=1}^{n}
-|r_i - r_{cm}|^2
-\]</span></p>
-</section>
-<section id="circular-mean-mapping" class="level2" data-number="10.16">
-<h2 data-number="10.16" class="anchored" data-anchor-id="circular-mean-mapping"><span class="header-section-number">10.16</span> Circular mean mapping</h2>
-<p><span class="math display">\[
-\theta = \frac{2\pi x}{L}
-\]</span></p>
-<p><span class="math display">\[
-z = \langle e^{i\theta} \rangle
-\]</span></p>
-</section>
-<section id="cluster-extent" class="level2" data-number="10.17">
-<h2 data-number="10.17" class="anchored" data-anchor-id="cluster-extent"><span class="header-section-number">10.17</span> Cluster extent</h2>
-<p><span class="math display">\[
-\text{extent} = x_{\max} - x_{\min} + 1
-\]</span></p>
-</section>
-<section id="spanning-criterion" class="level2" data-number="10.18">
-<h2 data-number="10.18" class="anchored" data-anchor-id="spanning-criterion"><span class="header-section-number">10.18</span> Spanning criterion</h2>
-<p><span class="math display">\[
-\text{extent} &gt; 0.8L
-\]</span></p>
-</section>
-<section id="cyclomatic-number" class="level2" data-number="10.19">
-<h2 data-number="10.19" class="anchored" data-anchor-id="cyclomatic-number"><span class="header-section-number">10.19</span> Cyclomatic number</h2>
-<p><span class="math display">\[
-c = \ell - n + 1
-\]</span></p>
-</section>
-<section id="compactness-measure" class="level2" data-number="10.20">
-<h2 data-number="10.20" class="anchored" data-anchor-id="compactness-measure"><span class="header-section-number">10.20</span> Compactness measure</h2>
-<p><span class="math display">\[
-A =
-\frac{c}{(n-1)^2}
-\]</span></p>
-</section>
-<section id="largest-cluster-fraction" class="level2" data-number="10.21">
-<h2 data-number="10.21" class="anchored" data-anchor-id="largest-cluster-fraction"><span class="header-section-number">10.21</span> Largest-cluster fraction</h2>
-<p><span class="math display">\[
-f_{\max}(t) =
-\frac{n_{\max}(t)}{N}
-\]</span></p>
-</section>
-<section id="autocorrelation-function" class="level2" data-number="10.22">
-<h2 data-number="10.22" class="anchored" data-anchor-id="autocorrelation-function"><span class="header-section-number">10.22</span> Autocorrelation function</h2>
-<p><span class="math display">\[
-A(\tau) =
-\frac{\langle (x_t - \bar{x})(x_{t+\tau} - \bar{x}) \rangle}
-{\langle (x_t - \bar{x})^2 \rangle}
-\]</span></p>
-</section>
-<section id="decorrelation-time" class="level2" data-number="10.23">
-<h2 data-number="10.23" class="anchored" data-anchor-id="decorrelation-time"><span class="header-section-number">10.23</span> Decorrelation time</h2>
-<p><span class="math display">\[
-\tau_c =
-\min
-\left\{
-\tau : A(\tau) &lt; e^{-1}
-\right\}
-\]</span></p>
-</section>
-<section id="logarithmic-binning" class="level2" data-number="10.24">
-<h2 data-number="10.24" class="anchored" data-anchor-id="logarithmic-binning"><span class="header-section-number">10.24</span> Logarithmic binning</h2>
-<p><span class="math display">\[
-n_b \in \text{log-spaced bins}
-\]</span></p>
+<section id="main-results" class="level4" data-number="9.0.0.2">
+<h4 data-number="9.0.0.2" class="anchored" data-anchor-id="main-results"><span class="header-section-number">9.0.0.2</span> Main Results:</h4>
+<ul>
+<li>Worked on and Completed the report, ensuring that the most important information was included and that the most meaningful equations were present, as well as that references were cited accurately.</li>
+<li>Finalised the Lab Book to ensure that it was all in order for submission.</li>
+</ul>
 
 
 </section>
@@ -839,11 +631,14 @@ n_b \in \text{log-spaced bins}
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./week7.html" class="pagination-link" aria-label="Week 7 &amp; 8">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 7 &amp; 8</span></span>
+      <a href="./week6.html" class="pagination-link" aria-label="Week 6">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 6</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./equ.html" class="pagination-link" aria-label="Equations and Definitions">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Equations and Definitions</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

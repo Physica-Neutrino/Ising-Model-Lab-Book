@@ -100,6 +100,16 @@
     ]
   },
   {
+    "objectID": "Weekly-Log.html#week-seven-eight",
+    "href": "Weekly-Log.html#week-seven-eight",
+    "title": "2  Log Overview",
+    "section": "2.7 Week Seven & Eight:",
+    "text": "2.7 Week Seven & Eight:\n\nWorked on and Completed the report, ensuring that the most important information was included and that the most meaningful equations were present, as well as that references were cited accurately.\nFinalised the Lab Book to ensure that it was all in order for submission.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Log Overview</span>"
+    ]
+  },
+  {
     "objectID": "week1.html",
     "href": "week1.html",
     "title": "3  Week 1 Overview",
@@ -160,13 +170,253 @@
     ]
   },
   {
+    "objectID": "week7.html",
+    "href": "week7.html",
+    "title": "9  Week 7 & 8 Overview",
+    "section": "",
+    "text": "9.0.0.1 Main Activities:\n\nWorked on / Completed Report\n\nI commenced writing the report, doing so in several drafts so that all information was considered before shortening the report to fit in to the 4 pages.\nI decided to prioritise space to results / discussion, rather than introduction and theory.\nI tried to recompile to produce Figure 2, to make the colours more visually pleasing. Unfortunately, this was not possible due to Python Kernel failure.\nI carefully selected the best / most influential equations, which would contribute most to the narrative of the report.\nI ensured that references were present in the report and that citations were made accordingly.\nI edited the report thoroughly.\n\nFinalised the Lab Book\n\nI continued with the Lab Book log for weeks 7 and 8.\nI ensured that the weekly log was complete and up-to-date, that the equations page was functioning and that the main page included relevant and completed information.\n\n\n\n\n9.0.0.2 Main Results:\n\nWorked on and Completed the report, ensuring that the most important information was included and that the most meaningful equations were present, as well as that references were cited accurately.\nFinalised the Lab Book to ensure that it was all in order for submission.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week 7 & 8</span>"
+    ]
+  },
+  {
     "objectID": "equ.html",
     "href": "equ.html",
-    "title": "9  Equations and Definitions",
+    "title": "10  Equations",
     "section": "",
-    "text": "This is to test the updating ability",
+    "text": "10.1 Inverse temperature\n\\[\n\\beta = \\frac{1}{k_B T}\n\\]\n\\[\n\\beta = \\frac{1}{T}\n\\]",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Equations and Definitions</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#spin-variables",
+    "href": "equ.html#spin-variables",
+    "title": "10  Equations",
+    "section": "10.2 Spin variables",
+    "text": "10.2 Spin variables\n\\[\ns_i \\in \\{+1,-1\\}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#total-number-of-sites",
+    "href": "equ.html#total-number-of-sites",
+    "title": "10  Equations",
+    "section": "10.3 Total number of sites",
+    "text": "10.3 Total number of sites\n\\[\nN = L^d\n\\]\n\\[\nN = L^2\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#ising-hamiltonian",
+    "href": "equ.html#ising-hamiltonian",
+    "title": "10  Equations",
+    "section": "10.4 Ising Hamiltonian",
+    "text": "10.4 Ising Hamiltonian\n\\[\nH = -J \\sum_{\\langle i,j \\rangle} s_i s_j\n\\]\n\\[\nH = - \\sum_{\\langle i,j \\rangle} s_i s_j\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#energy-change-for-a-trial-spin-flip",
+    "href": "equ.html#energy-change-for-a-trial-spin-flip",
+    "title": "10  Equations",
+    "section": "10.5 Energy change for a trial spin flip",
+    "text": "10.5 Energy change for a trial spin flip\n\\[\n\\Delta E = 2s \\sum_{\\text{nn}} s_j\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#metropolis-acceptance-rule",
+    "href": "equ.html#metropolis-acceptance-rule",
+    "title": "10  Equations",
+    "section": "10.6 Metropolis acceptance rule",
+    "text": "10.6 Metropolis acceptance rule\n\\[\nP_{\\mathrm{acc}} = e^{-\\beta \\Delta E}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#periodic-boundary-condition",
+    "href": "equ.html#periodic-boundary-condition",
+    "title": "10  Equations",
+    "section": "10.7 Periodic boundary condition",
+    "text": "10.7 Periodic boundary condition\n\\[\nx \\equiv x + L\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#magnetisation",
+    "href": "equ.html#magnetisation",
+    "title": "10  Equations",
+    "section": "10.8 Magnetisation",
+    "text": "10.8 Magnetisation\n\\[\nM = \\sum_i s_i\n\\]\n\\[\nm = \\frac{M}{N}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#energy-of-a-configuration",
+    "href": "equ.html#energy-of-a-configuration",
+    "title": "10  Equations",
+    "section": "10.9 Energy of a configuration",
+    "text": "10.9 Energy of a configuration\n\\[\nE = - \\sum_{\\langle i,j \\rangle} s_i s_j\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#cluster-size",
+    "href": "equ.html#cluster-size",
+    "title": "10  Equations",
+    "section": "10.10 Cluster size",
+    "text": "10.10 Cluster size\n\\[\nn_k = \\#\\{ i \\in k \\}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#cluster-number-density",
+    "href": "equ.html#cluster-number-density",
+    "title": "10  Equations",
+    "section": "10.11 Cluster number density",
+    "text": "10.11 Cluster number density\n\\[\nz(n) = \\frac{c_n}{N}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#mean-cluster-number-density",
+    "href": "equ.html#mean-cluster-number-density",
+    "title": "10  Equations",
+    "section": "10.12 Mean cluster number density",
+    "text": "10.12 Mean cluster number density\n\\[\n\\bar{z}(n) =\n\\frac{1}{M}\n\\sum_{m=1}^{M}\nz_m(n)\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#standard-error-of-the-mean",
+    "href": "equ.html#standard-error-of-the-mean",
+    "title": "10  Equations",
+    "section": "10.13 Standard error of the mean",
+    "text": "10.13 Standard error of the mean\n\\[\n\\mathrm{SEM}[z(n)] =\n\\frac{\\sigma[z(n)]}{\\sqrt{M}}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#power-law-cluster-size-distribution",
+    "href": "equ.html#power-law-cluster-size-distribution",
+    "title": "10  Equations",
+    "section": "10.14 Power-law cluster size distribution",
+    "text": "10.14 Power-law cluster size distribution\n\\[\nz(n) \\propto n^{m}\n\\]\n\\[\n\\log z(n) = m \\log n + b\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#radius-of-gyration-squared",
+    "href": "equ.html#radius-of-gyration-squared",
+    "title": "10  Equations",
+    "section": "10.15 Radius of gyration squared",
+    "text": "10.15 Radius of gyration squared\n\\[\nR_g^2 =\n\\frac{1}{n}\n\\sum_{i=1}^{n}\n|r_i - r_{cm}|^2\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#circular-mean-mapping",
+    "href": "equ.html#circular-mean-mapping",
+    "title": "10  Equations",
+    "section": "10.16 Circular mean mapping",
+    "text": "10.16 Circular mean mapping\n\\[\n\\theta = \\frac{2\\pi x}{L}\n\\]\n\\[\nz = \\langle e^{i\\theta} \\rangle\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#cluster-extent",
+    "href": "equ.html#cluster-extent",
+    "title": "10  Equations",
+    "section": "10.17 Cluster extent",
+    "text": "10.17 Cluster extent\n\\[\n\\text{extent} = x_{\\max} - x_{\\min} + 1\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#spanning-criterion",
+    "href": "equ.html#spanning-criterion",
+    "title": "10  Equations",
+    "section": "10.18 Spanning criterion",
+    "text": "10.18 Spanning criterion\n\\[\n\\text{extent} &gt; 0.8L\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#cyclomatic-number",
+    "href": "equ.html#cyclomatic-number",
+    "title": "10  Equations",
+    "section": "10.19 Cyclomatic number",
+    "text": "10.19 Cyclomatic number\n\\[\nc = \\ell - n + 1\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#compactness-measure",
+    "href": "equ.html#compactness-measure",
+    "title": "10  Equations",
+    "section": "10.20 Compactness measure",
+    "text": "10.20 Compactness measure\n\\[\nA =\n\\frac{c}{(n-1)^2}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#largest-cluster-fraction",
+    "href": "equ.html#largest-cluster-fraction",
+    "title": "10  Equations",
+    "section": "10.21 Largest-cluster fraction",
+    "text": "10.21 Largest-cluster fraction\n\\[\nf_{\\max}(t) =\n\\frac{n_{\\max}(t)}{N}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#autocorrelation-function",
+    "href": "equ.html#autocorrelation-function",
+    "title": "10  Equations",
+    "section": "10.22 Autocorrelation function",
+    "text": "10.22 Autocorrelation function\n\\[\nA(\\tau) =\n\\frac{\\langle (x_t - \\bar{x})(x_{t+\\tau} - \\bar{x}) \\rangle}\n{\\langle (x_t - \\bar{x})^2 \\rangle}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#decorrelation-time",
+    "href": "equ.html#decorrelation-time",
+    "title": "10  Equations",
+    "section": "10.23 Decorrelation time",
+    "text": "10.23 Decorrelation time\n\\[\n\\tau_c =\n\\min\n\\left\\{\n\\tau : A(\\tau) &lt; e^{-1}\n\\right\\}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "equ.html#logarithmic-binning",
+    "href": "equ.html#logarithmic-binning",
+    "title": "10  Equations",
+    "section": "10.24 Logarithmic binning",
+    "text": "10.24 Logarithmic binning\n\\[\nn_b \\in \\text{log-spaced bins}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Equations and Definitions</span>"
     ]
   }
 ]
